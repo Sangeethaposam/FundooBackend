@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
 
 //get all users
 export const getAllUsers = async () => {
@@ -29,6 +30,9 @@ export const loginUser = async (body) => {
     throw new Error("invalid email");
   }else {
     if(bcrypt.compareSync(body.password,data.password)){
+
+      var token = jwt.sign({ id: data.id ,email : data.email}, process.env.SECRET_KEY);
+       return token;
        return data;
   }else{
     throw new Error("Invalid password");

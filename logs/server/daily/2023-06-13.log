@@ -1,0 +1,18 @@
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-13T02:59:27.202Z"}
+info: Connected to the database. {"timestamp":"2023-06-13T02:59:27.234Z"}
+error: 
+    status - 500 
+    message - Error: Invalid details
+    at _callee3$ (D:\FundooApplication\FundooApp\src\services\/user.service.js:21:11)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-13T02:59:51.278Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-13T03:14:27.019Z"}
+info: Connected to the database. {"timestamp":"2023-06-13T03:14:27.047Z"}
