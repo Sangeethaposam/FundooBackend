@@ -70,3 +70,9 @@ info: Connected to the database. {"timestamp":"2023-06-12T08:42:14.974Z"}
 info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-12T08:44:06.286Z"}
 info: Connected to the database. {"timestamp":"2023-06-12T08:44:06.311Z"}
 info: Connected to the database. {"timestamp":"2023-06-12T08:44:21.872Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-12T09:44:40.089Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T09:44:40.123Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-12T11:32:23.762Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:32:23.797Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-12T11:39:43.560Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:39:43.590Z"}

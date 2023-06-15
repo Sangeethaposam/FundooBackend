@@ -1,0 +1,49 @@
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-14T05:32:36.777Z"}
+info: Connected to the database. {"timestamp":"2023-06-14T05:32:36.835Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-14T05:34:47.747Z"}
+info: Connected to the database. {"timestamp":"2023-06-14T05:34:47.789Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-14T05:36:23.995Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-14T06:23:09.875Z"}
+info: Connected to the database. {"timestamp":"2023-06-14T06:23:09.930Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-14T06:34:17.849Z"}
+info: Connected to the database. {"timestamp":"2023-06-14T06:34:17.887Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-14T06:34:25.627Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-14T07:24:28.108Z"}
+info: Connected to the database. {"timestamp":"2023-06-14T07:24:28.159Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee3$ (D:\FundooApplication\FundooApp\src\services\/user.service.js:28:11)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-14T07:28:50.659Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-14T07:31:27.395Z"}
+info: Connected to the database. {"timestamp":"2023-06-14T07:31:27.434Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-14T07:33:17.300Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-14T08:08:04.287Z"}
+info: Connected to the database. {"timestamp":"2023-06-14T08:08:04.354Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee3$ (D:\FundooApplication\FundooApp\src\services\/user.service.js:27:11)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-14T08:08:28.207Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-14T08:10:10.569Z"}
+info: Connected to the database. {"timestamp":"2023-06-14T08:10:10.613Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-14T08:10:37.304Z"}
+info: Connected to the database. {"timestamp":"2023-06-14T08:10:37.350Z"}
