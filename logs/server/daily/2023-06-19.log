@@ -1,0 +1,616 @@
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T06:03:57.038Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T06:03:57.079Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/AddingTrash/648ad149409b001eb08a5b66 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-06-19T06:04:27.718Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T06:11:36.760Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T06:11:36.816Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T06:12:04.518Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T06:12:04.575Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T06:12:35.768Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T06:12:35.823Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T06:13:14.357Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T06:13:14.407Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T06:13:24.832Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T06:13:24.891Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "GetAll" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/GetAll 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-19T06:14:26.857Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "GetAll" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/GetAll 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-19T06:14:53.430Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "GetAll" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/GetAll 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-19T06:14:58.685Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T06:16:52.293Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T06:16:52.355Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'AddingTrash' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/AddingTrash/ 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-19T06:19:17.612Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'AddingArchive' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/AddingArchive/ 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-19T06:20:02.060Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'RemoveFromArchive' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/RemoveFromArchive/ 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-19T06:20:26.100Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'RemoveFromArchive' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/RemoveFromArchive/ 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-19T06:20:51.801Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T06:21:41.634Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T06:21:41.687Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T06:21:47.458Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T06:21:47.489Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T09:21:29.613Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T09:21:29.673Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T09:24:10.130Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T09:24:10.214Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T09:28:14.741Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T09:28:14.787Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T09:28:59.815Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T09:28:59.893Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T09:29:13.972Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T09:29:14.032Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T09:45:57.304Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T09:45:57.358Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T09:47:58.469Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T09:47:58.511Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T10:00:01.195Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T10:00:01.249Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee3$ (D:\FundooApplication\FundooApp\src\services\/user.service.js:39:11)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T10:06:56.335Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee3$ (D:\FundooApplication\FundooApp\src\services\/user.service.js:39:11)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T10:07:36.672Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee3$ (D:\FundooApplication\FundooApp\src\services\/user.service.js:39:11)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T10:07:38.646Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee3$ (D:\FundooApplication\FundooApp\src\services\/user.service.js:39:11)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T10:08:39.693Z"}
+error: 
+    status - 500 
+    message - Error: Invalid password
+    at _callee3$ (D:\FundooApplication\FundooApp\src\services\/user.service.js:39:11)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T10:08:41.461Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T10:19:14.934Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T10:19:14.995Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T10:21:41.801Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T10:21:41.854Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T10:34:08.973Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T10:34:09.016Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T10:37:12.704Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T10:37:12.762Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T10:40:03.381Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T10:40:03.436Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T11:26:40.367Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T11:26:40.430Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T11:34:10.006Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T11:34:10.040Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T11:37:15.248Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T11:37:15.274Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T11:38:07.537Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T11:38:07.571Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T11:45:26.865Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T11:45:26.888Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T11:46:41.076Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T11:46:41.113Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T11:46:59.792Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T11:46:59.829Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T11:47:52.721Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T11:47:52.745Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T11:48:46.333Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T11:48:46.365Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T11:50:32.897Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T11:51:05.827Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T11:51:53.872Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T11:51:57.749Z"}
+error: 
+    status - 500 
+    message - ValidationError: "age" is not allowed 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T11:52:13.026Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T11:53:04.083Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T11:53:04.110Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 's', ..."    "age":sdsdgfg
+}" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\FundooApplication\FundooApp\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\FundooApplication\FundooApp\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\FundooApplication\FundooApp\node_modules\raw-body\index.js:231:16)
+    at done (D:\FundooApplication\FundooApp\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FundooApplication\FundooApp\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:512:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T11:53:21.091Z"}
+error: 
+    status - 500 
+    message - ValidationError: "age" must be a number 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-19T11:53:43.156Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T11:56:59.554Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T11:56:59.596Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T11:57:56.253Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T11:57:56.289Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T13:29:09.139Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T13:29:09.212Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T13:34:14.245Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T13:34:14.277Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T13:35:40.793Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T13:35:40.820Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T13:40:51.738Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T13:40:51.772Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee3$ (D:\FundooApplication\FundooApp\src\services\/notes.service.js:17:51)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getNote (D:\FundooApplication\FundooApp\src\services\/notes.service.js:16:21)
+    at _callee3$ (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:41:39)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getNote (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:39:23)
+    at Layer.handle [as handle_request] (D:\FundooApplication\FundooApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooApplication\FundooApp\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\FundooApplication\FundooApp\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/648ad149409b001eb08a5b66 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-19T13:41:47.642Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee3$ (D:\FundooApplication\FundooApp\src\services\/notes.service.js:17:51)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getNote (D:\FundooApplication\FundooApp\src\services\/notes.service.js:16:21)
+    at _callee3$ (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:41:39)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getNote (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:39:23)
+    at Layer.handle [as handle_request] (D:\FundooApplication\FundooApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooApplication\FundooApp\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\FundooApplication\FundooApp\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/648ad149409b001eb08a5b66 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-19T13:41:59.404Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T13:46:58.289Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T13:46:58.318Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T13:48:05.180Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T13:48:05.207Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T13:52:13.221Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T13:52:13.247Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T13:54:16.363Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T13:54:16.398Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T13:54:25.576Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T13:54:25.616Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T14:01:45.789Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T14:01:45.813Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T14:05:54.189Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T14:05:54.221Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T14:06:44.924Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T14:06:44.957Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T14:09:19.854Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T14:09:46.214Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T15:05:45.064Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T15:05:45.328Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T15:09:53.469Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T15:09:53.494Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T15:10:39.134Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T15:10:39.181Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T15:16:34.326Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T15:16:34.360Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T15:17:13.531Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T15:17:13.561Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T15:19:34.015Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T15:19:34.056Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T15:21:16.527Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T15:21:16.553Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\model.js:5075:11)
+    at Function.findByIdAndUpdate (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\model.js:2702:19)
+    at _callee4$ (D:\FundooApplication\FundooApp\src\services\/notes.service.js:23:27)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateNotes (D:\FundooApplication\FundooApp\src\services\/notes.service.js:22:25)
+    at _callee4$ (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:54:39)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at updateNotes (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:52:27)
+    at Layer.handle [as handle_request] (D:\FundooApplication\FundooApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooApplication\FundooApp\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\FundooApplication\FundooApp\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/648ad192409b001eb08a5b68 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-19T15:24:03.204Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\model.js:5075:11)
+    at Function.findByIdAndUpdate (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\model.js:2702:19)
+    at _callee4$ (D:\FundooApplication\FundooApp\src\services\/notes.service.js:23:27)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateNotes (D:\FundooApplication\FundooApp\src\services\/notes.service.js:22:25)
+    at _callee4$ (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:54:39)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at updateNotes (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:52:27)
+    at Layer.handle [as handle_request] (D:\FundooApplication\FundooApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooApplication\FundooApp\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\FundooApplication\FundooApp\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/648ad192409b001eb08a5b68 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-19T15:24:57.228Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\model.js:5075:11)
+    at Function.findByIdAndUpdate (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\model.js:2702:19)
+    at _callee4$ (D:\FundooApplication\FundooApp\src\services\/notes.service.js:23:27)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateNotes (D:\FundooApplication\FundooApp\src\services\/notes.service.js:22:25)
+    at _callee4$ (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:54:39)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at updateNotes (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:52:27)
+    at Layer.handle [as handle_request] (D:\FundooApplication\FundooApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooApplication\FundooApp\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\FundooApplication\FundooApp\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/648ad192409b001eb08a5b68 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-19T15:25:56.670Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\model.js:5075:11)
+    at Function.findByIdAndUpdate (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\model.js:2702:19)
+    at _callee4$ (D:\FundooApplication\FundooApp\src\services\/notes.service.js:23:27)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateNotes (D:\FundooApplication\FundooApp\src\services\/notes.service.js:22:25)
+    at _callee4$ (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:54:39)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at updateNotes (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:52:27)
+    at Layer.handle [as handle_request] (D:\FundooApplication\FundooApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooApplication\FundooApp\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\FundooApplication\FundooApp\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/648ad192409b001eb08a5b68 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-19T15:25:58.777Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\model.js:5075:11)
+    at Function.findByIdAndUpdate (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\model.js:2702:19)
+    at _callee4$ (D:\FundooApplication\FundooApp\src\services\/notes.service.js:23:27)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateNotes (D:\FundooApplication\FundooApp\src\services\/notes.service.js:22:25)
+    at _callee4$ (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:54:39)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at updateNotes (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:52:27)
+    at Layer.handle [as handle_request] (D:\FundooApplication\FundooApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooApplication\FundooApp\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\FundooApplication\FundooApp\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/648ad192409b001eb08a5b68 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-19T15:26:07.081Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\model.js:5075:11)
+    at Function.findByIdAndUpdate (D:\FundooApplication\FundooApp\node_modules\mongoose\lib\model.js:2702:19)
+    at _callee4$ (D:\FundooApplication\FundooApp\src\services\/notes.service.js:23:27)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateNotes (D:\FundooApplication\FundooApp\src\services\/notes.service.js:22:25)
+    at _callee4$ (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:54:39)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at updateNotes (D:\FundooApplication\FundooApp\src\controllers\/notes.controller.js:52:27)
+    at Layer.handle [as handle_request] (D:\FundooApplication\FundooApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooApplication\FundooApp\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\FundooApplication\FundooApp\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/648ad192409b001eb08a5b68 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-06-19T15:26:08.385Z"}

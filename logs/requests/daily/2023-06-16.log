@@ -1,0 +1,8 @@
+info: ::1 - - [16/Jun/2023:03:45:12 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [16/Jun/2023:05:33:50 +0000] "POST /api/v1/users/Login HTTP/1.1" 201 249 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [16/Jun/2023:05:34:48 +0000] "GET /api/v1/notes/648ad149409b001eb08a5b66 HTTP/1.1" 200 334 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [16/Jun/2023:11:37:44 +0000] "GET /api/v1/notes/648ad149409b001eb08a5b66 HTTP/1.1" 200 334 "-" "PostmanRuntime/7.32.3"
+
