@@ -614,3 +614,5 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2023-06-19T15:26:08.385Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-19T15:27:56.421Z"}
+info: Connected to the database. {"timestamp":"2023-06-19T15:27:56.439Z"}
