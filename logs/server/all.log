@@ -2515,3 +2515,5 @@ error:
    {"timestamp":"2023-06-15T11:50:09.539Z"}
 info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-15T12:03:27.687Z"}
 info: Connected to the database. {"timestamp":"2023-06-15T12:03:27.715Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-20T13:46:03.923Z"}
+info: Connected to the database. {"timestamp":"2023-06-20T13:46:03.980Z"}
