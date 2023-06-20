@@ -23,7 +23,7 @@ export const createNote = async (req, res, next) => {
 
   export const getAllNotes = async (req, res, next) => {
     try {
-      const data = await NotesService.getAllNotes();
+      const data = await NotesService.getAllNotes(req.body);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
@@ -36,8 +36,7 @@ export const createNote = async (req, res, next) => {
   
   export const getNote = async (req, res, next) => {
     try {
-      console.log("controller getnote",req.params,req.queries);
-      const data = await NotesService.getNote(req.params._id);
+      const data = await NotesService.getNote(req.params._id,req.body);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
@@ -63,7 +62,7 @@ export const createNote = async (req, res, next) => {
   
   export const deleteNote = async (req, res, next) => {
     try {
-      await NotesService.deleteNote(req.params._id);
+      await NotesService.deleteNote(req.params._id,req.body);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: [],
@@ -74,3 +73,29 @@ export const createNote = async (req, res, next) => {
     }
   };
   
+  export const addRemoveTrash = async (req, res, next) => {
+    try {
+      const data = await NotesService.addRemoveTrash(req.params._id,req.body);
+
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data,
+        message: 'Note added successfully into trash'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  export const addRemoveArchive = async (req, res, next) => {
+    try {
+      const data = await NotesService.updateNotes(req.params._id,req.body);
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data,
+        message: 'Note added successfully into archive'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
