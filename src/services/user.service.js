@@ -1,6 +1,7 @@
 import User from '../models/user.model';
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
+import * as utils from '../utils/user.util';
 
 //get all users
 export const getAllUsers = async () => {
@@ -33,12 +34,45 @@ export const loginUser = async (body) => {
 
       var token = jwt.sign({ id: data.id ,email : data.email}, process.env.SECRET_KEY);
        return token;
-       return data;
   }else{
     throw new Error("Invalid password");
   }
  }
 };
 
+//forgotPassword
+export const forgotPassword = async (body) => {
+  const data = await User.findOne({email : body.email});
+  console.log("email ...", data);
+  if(data){
+    const token = jwt.sign({ id: data.id ,email : data.email}, process.env.RESET_KEY);
+    console.log("token generated........", token);
+      const send = await  utils.sendMail(data.email,token);
+      return send;
+  }else {
+    throw new Error("invalid email"); 
+  }
+};
+
+//reset  Password
+export const resetPassword = async (_id,body) => {
+  const hash = bcrypt.hashSync(body.password, 10);
+  body.password = hash;
+  const data = await Note.findByIdAndUpdate(
+    {
+      _id
+    },{
+      password: body.password
+    },
+    body,
+    {
+      new: true
+    }
+  );
+  if(!data){
+    throw new Error("Failed to reset password");
+  }
+  return data;
+};
 
 
