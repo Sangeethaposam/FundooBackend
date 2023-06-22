@@ -1,0 +1,78 @@
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-22T03:53:51.098Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T03:53:52.650Z"}
+error: 
+    status - 500 
+    message - Error: Email already exists
+    at _callee2$ (D:\FundooApplication\FundooApp\src\services\/user.service.js:16:9)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-06-22T03:53:53.090Z"}
+error: 
+    status - 500 
+    message - Error: data not found
+    at _callee6$ (D:\FundooApplication\FundooApp\src\services\/notes.service.js:48:9)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/6493c5d146b3c31ff0f7baf5 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-06-22T03:53:55.439Z"}
+error: 
+    status - 500 
+    message - Error: data not found
+    at _callee7$ (D:\FundooApplication\FundooApp\src\services\/notes.service.js:69:9)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/archive/6493c5d146b3c31ff0f7baf5 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-06-22T03:53:55.468Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-22T03:55:05.631Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T03:55:05.668Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-22T03:59:15.759Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T03:59:15.779Z"}
+error: 
+    status - 500 
+    message - Error: data not found
+    at _callee6$ (D:\FundooApplication\FundooApp\src\services\/notes.service.js:48:9)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/6493c7141b0c7d2c7c805760 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-06-22T03:59:16.176Z"}
+error: 
+    status - 500 
+    message - Error: data not found
+    at _callee7$ (D:\FundooApplication\FundooApp\src\services\/notes.service.js:69:9)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/archive/6493c7141b0c7d2c7c805760 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-06-22T03:59:16.228Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-22T04:38:00.378Z"}
+info: Connected to the database. {"timestamp":"2023-06-22T04:38:00.405Z"}
