@@ -36,6 +36,7 @@ export const createNote = async (req, res, next) => {
   
   export const getNote = async (req, res, next) => {
     try {
+      console.log("controller....");
       const data = await NotesService.getNote(req.params._id,req.body);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
@@ -49,7 +50,7 @@ export const createNote = async (req, res, next) => {
 
   export const updateNotes = async (req, res, next) => {
     try {
-      const data = await NotesService.updateNotes(req.params._id, req.body);
+      const data = await NotesService.updateNotes(req.params._id,req.body.createdBy, req.body);
       res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
         data: data,
@@ -75,7 +76,7 @@ export const createNote = async (req, res, next) => {
   
   export const addRemoveTrash = async (req, res, next) => {
     try {
-      const data = await NotesService.addRemoveTrash(req.params._id,req.body);
+      const data = await NotesService.addRemoveTrash(req.params._id);
 
       res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
@@ -89,7 +90,7 @@ export const createNote = async (req, res, next) => {
 
   export const addRemoveArchive = async (req, res, next) => {
     try {
-      const data = await NotesService.updateNotes(req.params._id,req.body);
+      const data = await NotesService.addRemoveArchive(req.params._id);
       res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
         data: data,

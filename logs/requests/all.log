@@ -2465,3 +2465,895 @@ info: ::1 - - [20/Jun/2023:08:55:04 +0000] "POST /api/v1/users/resetpassword/649
 
 info: ::1 - - [20/Jun/2023:08:57:59 +0000] "POST /api/v1/users/resetpassword/64914130742863298ca425dd HTTP/1.1" 500 52 "-" "PostmanRuntime/7.32.3"
 
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:05:31:43 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:44:57)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:01:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6230.781},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19439002,"external":20883615,"heapTotal":145866752,"heapUsed":117829600,"rss":186626048},"pid":10808,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:44:57)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":57,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:05:35:37 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:44:57)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:05:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6465.203},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19375721,"external":20820334,"heapTotal":131047424,"heapUsed":102668048,"rss":170946560},"pid":11308,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:44:57)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":57,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:05:36:40 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:44:57)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:06:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6528.171},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18500645,"external":19945258,"heapTotal":132132864,"heapUsed":100352064,"rss":170819584},"pid":4064,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:44:57)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":57,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:05:39:29 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:44:57)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:09:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6696.859},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18540544,"external":19985157,"heapTotal":127676416,"heapUsed":95735568,"rss":166551552},"pid":4400,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:44:57)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":57,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:05:41:39 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:44:56)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:11:39 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6826.812},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18714176,"external":20158789,"heapTotal":127676416,"heapUsed":95519216,"rss":167067648},"pid":9644,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:44:56)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":56,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:05:43:59 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:44:56)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:13:59 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6966.984},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18416682,"external":19861295,"heapTotal":128462848,"heapUsed":94682744,"rss":166723584},"pid":7968,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:44:56)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":56,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:05:44:53 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:44:56)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:14:53 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7020.765},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18382549,"external":19827162,"heapTotal":127938560,"heapUsed":94685104,"rss":166400000},"pid":1120,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:44:56)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":56,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:05:46:03 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:44:56)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:16:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7090.75},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18722086,"external":20166699,"heapTotal":127676416,"heapUsed":95708752,"rss":166297600},"pid":6808,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:44:56)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":56,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:05:50:05 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:44:57)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:20:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7332.859},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18324303,"external":19768916,"heapTotal":128200704,"heapUsed":93977656,"rss":167227392},"pid":2580,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:44:57)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":57,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:05:51:31 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:44:57)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:21:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7419.265},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19900702,"external":21345315,"heapTotal":128151552,"heapUsed":105091736,"rss":167723008},"pid":4916,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:44:57)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":57,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:05:53:09 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:44:57)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:23:09 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7517.5},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18316480,"external":19761093,"heapTotal":132657152,"heapUsed":98250880,"rss":170135552},"pid":4416,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:44:57)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":57,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::1 - - [22/Jun/2023:05:54:06 +0000] "POST /api/v1/users/ HTTP/1.1" 201 314 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:05:54:22 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:05:54:47 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 284 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:05:55:02 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 291 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:05:55:47 +0000] "GET /api/v1/notes/6493e2272bff712c143f83f6 HTTP/1.1" 200 284 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:05:56:25 +0000] "PUT /api/v1/notes/6493e2272bff712c143f83f6 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:05:57:08 +0000] "PUT /api/v1/notes/6493e2272bff712c143f83f6 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:05:57:57 +0000] "PUT /api/v1/notes/6493e2272bff712c143f83f6 HTTP/1.1" 500 59 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:05:59:05 +0000] "PUT /api/v1/notes/6493e2272bff712c143f83f6 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:05:59:15 +0000] "PUT /api/v1/notes/6493e2272bff712c143f83f6 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:01:10 +0000] "PUT /api/v1/notes/6493e2272bff712c143f83f6 HTTP/1.1" 202 275 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:01:47 +0000] "PUT /api/v1/notes/trash/6493e2272bff712c143f83f6 HTTP/1.1" 202 283 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:01:48 +0000] "PUT /api/v1/notes/trash/6493e2272bff712c143f83f6 HTTP/1.1" 202 284 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:01:49 +0000] "PUT /api/v1/notes/trash/6493e2272bff712c143f83f6 HTTP/1.1" 202 283 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:01:50 +0000] "PUT /api/v1/notes/trash/6493e2272bff712c143f83f6 HTTP/1.1" 202 284 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:02:17 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:03:25 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:03:26 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:03:27 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:04:34 +0000] "PUT /api/v1/notes/trash/6493e2272bff712c143f83f6 HTTP/1.1" 202 283 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:04:35 +0000] "PUT /api/v1/notes/trash/6493e2272bff712c143f83f6 HTTP/1.1" 202 284 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:04:40 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:04:41 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:04:42 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:05:47 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:05:48 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:05:49 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:05:51 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:07:09 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:07:11 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:07:16 +0000] "PUT /api/v1/notes/trash/6493e2272bff712c143f83f6 HTTP/1.1" 202 283 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:07:17 +0000] "PUT /api/v1/notes/trash/6493e2272bff712c143f83f6 HTTP/1.1" 202 284 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:07:19 +0000] "PUT /api/v1/notes/trash/6493e2272bff712c143f83f6 HTTP/1.1" 202 283 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:07:20 +0000] "PUT /api/v1/notes/trash/6493e2272bff712c143f83f6 HTTP/1.1" 202 284 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:07:36 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:07:37 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:07:38 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:08:47 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:08:48 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:08:50 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:09:37 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 285 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:09:38 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:06:09:39 +0000] "PUT /api/v1/notes/archive/6493e2272bff712c143f83f6 HTTP/1.1" 202 285 "-" "PostmanRuntime/7.32.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:10:26 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:44:57)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:40:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8553.734},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18390741,"external":19835354,"heapTotal":137900032,"heapUsed":104301000,"rss":176070656},"pid":8180,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:44:57)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":57,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":44,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:13:14 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:45:56)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:43:14 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8722.39},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18523566,"external":19968179,"heapTotal":127942656,"heapUsed":96330656,"rss":166776832},"pid":6320,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:45:56)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":56,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:18:00 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:45:57)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:48:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9008.609},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19399632,"external":20844245,"heapTotal":129744896,"heapUsed":100151376,"rss":169283584},"pid":8924,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:45:57)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":57,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:25:25 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:45:40)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:55:25 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9459.656},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19391641,"external":20836254,"heapTotal":130011136,"heapUsed":100543552,"rss":169041920},"pid":11668,"uid":null,"version":"v19.7.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:26:50 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:45:40)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:56:50 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9544.953},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19880187,"external":21324800,"heapTotal":128155648,"heapUsed":105302256,"rss":167301120},"pid":7172,"uid":null,"version":"v19.7.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:27:58 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:46:40)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 11:57:58 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:46:40)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9612.062},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18713247,"external":20157860,"heapTotal":127676416,"heapUsed":95395960,"rss":165896192},"pid":4836,"uid":null,"version":"v19.7.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:46:40)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":46,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:34:08 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'CREATED')
+TypeError: Cannot read properties of undefined (reading 'CREATED')
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:45:57)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 12:04:08 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9982.593},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19882341,"external":21326954,"heapTotal":127893504,"heapUsed":105240888,"rss":167731200},"pid":252,"uid":null,"version":"v19.7.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'CREATED')\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:45:57)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":57,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:35:40 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:45:40)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 12:05:40 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":10074.593},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18711668,"external":20156281,"heapTotal":127676416,"heapUsed":95393424,"rss":165814272},"pid":2044,"uid":null,"version":"v19.7.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:39:07 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\FundooApplication\FundooApp\tests\integration\/user.test.js:45:40)
+    at Test.assert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooApplication\FundooApp\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitCloseNT (node:net:2132:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Jun 22 2023 12:09:07 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":10281.031},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FundooApplication\\FundooApp\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19785092,"external":21229705,"heapTotal":128417792,"heapUsed":104471336,"rss":167321600},"pid":8552,"uid":null,"version":"v19.7.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitCloseNT (node:net:2132:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\FundooApplication\\FundooApp\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":626,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":512,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2132,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:40:16 +0000] "POST /api/v1/users HTTP/1.1" 201 315 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:40:54 +0000] "POST /api/v1/users HTTP/1.1" 201 315 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:40:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 234 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:40:54 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:40:54 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:40:54 +0000] "GET /api/v1/notes/6493ecf66bf5162da0c817b5 HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:40:54 +0000] "PUT /api/v1/notes/6493ecf66bf5162da0c817b5 HTTP/1.1" 202 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:40:54 +0000] "PUT /api/v1/notes/trash/6493ecf66bf5162da0c817b5 HTTP/1.1" 202 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:40:54 +0000] "PUT /api/v1/notes/archive/6493ecf66bf5162da0c817b5 HTTP/1.1" 202 317 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:06:40:54 +0000] "DELETE /api/v1/notes/6493ecf66bf5162da0c817b5 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [22/Jun/2023:10:00:18 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:00:18 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:00:18 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 12270 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:00:18 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 150945 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:00:18 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 246440 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:00:18 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1435746 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:00:19 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:01:35 +0000] "POST /api/v1/users HTTP/1.1" 201 323 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:03:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 238 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:04:14 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 566 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:06:14 +0000] "POST /api/v1/notes HTTP/1.1" 500 92 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:06:38 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:07:31 +0000] "POST /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:08:13 +0000] "POST /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:08:15 +0000] "POST /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:09:38 +0000] "POST /api/v1/notes HTTP/1.1" 201 283 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:10:21 +0000] "GET /api/v1/notes HTTP/1.1" 200 290 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:11:41 +0000] "GET /api/v1/notes/%7B:_id%7D HTTP/1.1" 500 179 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:12:46 +0000] "GET /api/v1/notes/%7B:_id%7D HTTP/1.1" 500 179 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:10:13:33 +0000] "GET /api/v1/notes/%7B:_id%7D HTTP/1.1" 500 179 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:19:04 +0000] "GET /api/v1/notes/%7B:_id%7D HTTP/1.1" 500 179 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [22/Jun/2023:10:20:25 +0000] "GET /api/v1/notes/%7B:_id%7D HTTP/1.1" 500 140 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:21:35 +0000] "GET /api/v1/notes/6493e2272bff712c143f83f6 HTTP/1.1" 200 274 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:10:21:38 +0000] "GET /api/v1/notes/6493e2272bff712c143f83f6 HTTP/1.1" 200 274 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [22/Jun/2023:10:23:28 +0000] "GET /api/v1/notes/%7B:_id%7D HTTP/1.1" 500 179 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:10:23:38 +0000] "GET /api/v1/notes/%7B:_id%7D HTTP/1.1" 500 179 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:28:52 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:28:53 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 12269 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:28:53 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:28:53 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:28:53 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:28:54 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:29:42 +0000] "POST /api/v1/users HTTP/1.1" 201 324 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:30:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 241 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:31:25 +0000] "POST /api/v1/users/login HTTP/1.1" 200 241 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:35:37 +0000] "POST /api/v1/notes HTTP/1.1" 201 298 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:36:18 +0000] "GET /api/v1/notes/%7B_id%7D HTTP/1.1" 500 178 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:37:51 +0000] "GET /api/v1/notes/%7B_id%7D HTTP/1.1" 500 178 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:39:04 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:39:04 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:39:04 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:39:04 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 12266 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:39:04 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:39:05 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:40:38 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:41:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 234 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:41:19 +0000] "POST /api/v1/users/login HTTP/1.1" 200 234 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:42:18 +0000] "POST /api/v1/notes HTTP/1.1" 201 299 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:42:20 +0000] "POST /api/v1/notes HTTP/1.1" 201 299 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:42:59 +0000] "GET /api/v1/notes/6494339ccbeef82b2815fc24 HTTP/1.1" 200 299 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:11:46:43 +0000] "PUT /api/v1/notes/%7B_id%7D HTTP/1.1" 500 178 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:44:47 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:44:47 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 12252 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:44:47 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:44:47 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:44:47 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:45:39 +0000] "POST /api/v1/users HTTP/1.1" 201 327 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:46:24 +0000] "POST /api/v1/users/login HTTP/1.1" 200 234 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:48:26 +0000] "POST /api/v1/notes HTTP/1.1" 201 292 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:51:20 +0000] "PUT /api/v1/notes/6494512a3c29500bdc8c93d2 HTTP/1.1" 202 284 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:51:35 +0000] "PUT /api/v1/notes/archive/6494512a3c29500bdc8c93d2 HTTP/1.1" 202 294 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:51:43 +0000] "PUT /api/v1/notes/archive/6494512a3c29500bdc8c93d2 HTTP/1.1" 202 295 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:51:58 +0000] "PUT /api/v1/note/trash/6494512a3c29500bdc8c93d2 HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:52:46 +0000] "PUT /api/v1/note/trash/6494512a3c29500bdc8c93d2 HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:53:12 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:53:12 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:53:12 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:53:12 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 12253 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:53:12 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:53:12 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\FundooApplication\FundooApp\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\FundooApplication\FundooApp\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Thu Jun 22 2023 19:27:10 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1232.921},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18699882,"external":21974039,"heapTotal":200638464,"heapUsed":175554304,"rss":246558720},"pid":8944,"uid":null,"version":"v19.7.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:524:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":524,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\FundooApplication\FundooApp\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\FundooApplication\FundooApp\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Thu Jun 22 2023 19:27:10 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1232.921},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18718203,"external":21992360,"heapTotal":200638464,"heapUsed":175889912,"rss":246583296},"pid":8944,"uid":null,"version":"v19.7.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:524:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":524,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\FundooApplication\FundooApp\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\FundooApplication\FundooApp\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Thu Jun 22 2023 19:27:10 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1232.921},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18736524,"external":22010681,"heapTotal":200638464,"heapUsed":176233864,"rss":246624256},"pid":8944,"uid":null,"version":"v19.7.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:524:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":524,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\FundooApplication\FundooApp\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\FundooApplication\FundooApp\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Thu Jun 22 2023 19:27:10 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1232.921},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18754845,"external":22029002,"heapTotal":200900608,"heapUsed":176813472,"rss":246665216},"pid":8944,"uid":null,"version":"v19.7.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:524:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":524,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\FundooApplication\FundooApp\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\FundooApplication\FundooApp\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Thu Jun 22 2023 19:27:10 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1232.937},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18773166,"external":22047323,"heapTotal":200900608,"heapUsed":177135584,"rss":246558720},"pid":8944,"uid":null,"version":"v19.7.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:524:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":524,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\FundooApplication\FundooApp\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\FundooApplication\FundooApp\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Thu Jun 22 2023 19:27:10 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1232.953},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18791487,"external":22065644,"heapTotal":200900608,"heapUsed":177469504,"rss":246611968},"pid":8944,"uid":null,"version":"v19.7.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:524:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":524,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\FundooApplication\FundooApp\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\FundooApplication\FundooApp\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Thu Jun 22 2023 19:27:10 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1232.953},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18797568,"external":22071725,"heapTotal":200900608,"heapUsed":177769888,"rss":246697984},"pid":8944,"uid":null,"version":"v19.7.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:524:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":524,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\FundooApplication\FundooApp\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\FundooApplication\FundooApp\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Thu Jun 22 2023 19:27:10 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1232.953},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18797568,"external":22071725,"heapTotal":200900608,"heapUsed":178057152,"rss":246800384},"pid":8944,"uid":null,"version":"v19.7.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:524:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":524,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+error: uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:923:11)
+    at WriteStream.Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (D:\FundooApplication\FundooApp\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\FundooApplication\FundooApp\node_modules\winston-transport\index.js:82:19)
+    at doWrite (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (D:\FundooApplication\FundooApp\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at DerivedLogger.emit (node:domain:489:12)
+    at addChunk (D:\FundooApplication\FundooApp\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:279:12) {"date":"Thu Jun 22 2023 19:27:10 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1232.968},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18797568,"external":22071725,"heapTotal":201162752,"heapUsed":178609024,"rss":246857728},"pid":8944,"uid":null,"version":"v19.7.0"},"stack":"Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at WriteStream.Socket._writeGeneric (node:net:923:11)\n    at WriteStream.Socket._write (node:net:935:8)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at WriteStream.Writable.write (node:internal/streams/writable:337:10)\n    at Console.log (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Console.Writable.write (D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)\n    at DerivedLogger.emit (node:events:524:35)\n    at DerivedLogger.emit (node:domain:489:12)\n    at addChunk (D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:279:12)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"WriteStream.Socket._writeGeneric","line":923,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"WriteStream.Socket._write","line":935,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":392,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":333,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"WriteStream.Writable.write","line":337,"method":"write","native":false},{"column":23,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":390,"method":null,"native":false},{"column":5,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":381,"method":null,"native":false},{"column":11,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":302,"method":"write","native":false},{"column":20,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":629,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":524,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":489,"method":"emit","native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":279,"method":null,"native":false}]}
+info: ::1 - - [22/Jun/2023:13:58:31 +0000] "POST /api/v1/users HTTP/1.1" 201 332 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:13:59:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 250 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:00:35 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 585 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:05:31 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:07:58 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:09:10 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:09:10 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 12257 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:09:10 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:09:10 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:09:10 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:09:10 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:10:29 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 585 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:11:41 +0000] "POST /api/v1/users/resetpassword/_id HTTP/1.1" 500 52 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:13:51 +0000] "POST /api/v1/users/resetpassword/_id HTTP/1.1" 500 52 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:15:14 +0000] "POST /api/v1/notes HTTP/1.1" 201 288 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:16:07 +0000] "PUT /api/v1/notes/trash/6494577203b4551d4031adc9 HTTP/1.1" 202 296 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:17:03 +0000] "DELETE /api/v1/notes/6494577203b4551d4031adc9 HTTP/1.1" 200 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:17:06 +0000] "DELETE /api/v1/notes/6494577203b4551d4031adc9 HTTP/1.1" 200 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:17:06 +0000] "DELETE /api/v1/notes/6494577203b4551d4031adc9 HTTP/1.1" 200 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:17:34 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:17:34 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:17:34 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:17:34 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:17:34 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:17:34 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:19:22 +0000] "POST /api/v1/users/login HTTP/1.1" 200 250 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:20:11 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 584 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:16 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:16 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:16 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:16 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 12255 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:16 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:17 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:18 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:18 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:18 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:18 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:18 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:18 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:19 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:19 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:19 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:19 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:19 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:19 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:21:53 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 584 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:35:50 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:35:50 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:35:50 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:35:50 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 12259 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:35:50 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:35:50 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:36:06 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:36:06 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:36:06 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:36:06 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:36:06 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:36:07 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:36:08 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:36:08 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:36:08 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:36:08 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:36:08 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:36:08 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:37:03 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:37:03 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:37:03 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:37:03 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:37:03 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:37:03 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:37:12 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:37:12 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:37:12 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:37:12 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:37:12 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:40:43 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:43:17 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:43:18 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:43:18 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:43:18 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:43:18 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:43:18 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:44:30 +0000] "POST /api/v1/users HTTP/1.1" 201 341 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:45:28 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 582 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:19 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:19 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:19 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:19 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:19 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:20 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:25 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:25 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:25 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:25 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:25 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:25 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:57 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:57 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:57 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:57 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:46:57 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:49:42 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:49:42 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:49:42 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:49:42 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:49:42 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 12257 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:49:42 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:52:57 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 585 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:54:18 +0000] "POST /api/v1/users/resetpassword/64945e4e209f3116187bb4ec HTTP/1.1" 500 54 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:55:20 +0000] "POST /api/v1/users/resetpassword/64945e4e209f3116187bb4ec HTTP/1.1" 500 54 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:56:44 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:56:44 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:56:44 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:56:44 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:56:44 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:56:45 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:58:24 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 585 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:14:59:13 +0000] "POST /api/v1/users/resetpassword/64945e4e209f3116187bb4ec HTTP/1.1" 500 83 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:01:37 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:01:37 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:01:37 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:01:37 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:01:37 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:01:38 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:01:39 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:01:39 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:01:39 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:01:39 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:01:39 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:01:39 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:02:09 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 584 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+
+info: ::1 - - [22/Jun/2023:15:03:12 +0000] "POST /api/v1/users/resetpassword/64945e4e209f3116187bb4ec HTTP/1.1" 200 342 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+

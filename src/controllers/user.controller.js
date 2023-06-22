@@ -42,8 +42,8 @@ export const registerUser = async (req, res, next) => {
 export const loginUser = async (req, res, next) => {
   try {
     const data = await UserService.loginUser(req.body);
-    res.status(HttpStatus.CREATED).json({
-      code: HttpStatus.CREATED,
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
       data: data,
       message: 'login successfully'
     });

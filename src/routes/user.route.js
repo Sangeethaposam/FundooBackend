@@ -14,10 +14,10 @@ router.post('', userController.registerUser);
 //route to login a new user
 router.post('/login', userController.loginUser);
 
-//route to create a new user
+//route to forgot password
 router.post('/forgotpassword', userController.forgotPassword);
 
-//route to create a new user
-router.post('/resetpassword/_id',resetAuth, userController.resetPassword);
+//route to reset password
+router.post('/resetpassword/:_id',resetAuth, userController.resetPassword);
 
 export default router;

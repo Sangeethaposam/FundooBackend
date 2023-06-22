@@ -58,13 +58,12 @@ export const forgotPassword = async (body) => {
 export const resetPassword = async (_id,body) => {
   const hash = bcrypt.hashSync(body.password, 10);
   body.password = hash;
-  const data = await Note.findByIdAndUpdate(
+  const data = await User.findByIdAndUpdate(
     {
       _id
     },{
       password: body.password
     },
-    body,
     {
       new: true
     }
