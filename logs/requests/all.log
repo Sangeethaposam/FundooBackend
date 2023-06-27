@@ -3357,3 +3357,116 @@ info: ::1 - - [22/Jun/2023:15:02:09 +0000] "POST /api/v1/users/forgotpassword HT
 
 info: ::1 - - [22/Jun/2023:15:03:12 +0000] "POST /api/v1/users/resetpassword/64945e4e209f3116187bb4ec HTTP/1.1" 200 342 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
 
+error: uncaughtException: _redis.default.get is not a function
+TypeError: _redis.default.get is not a function
+    at _callee3$ (D:\FundooApplication\FundooApp\src\middlewares\/auth.middleware.js:50:36)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getNotesFromRedis (D:\FundooApplication\FundooApp\src\middlewares\/auth.middleware.js:49:31)
+    at Layer.handle [as handle_request] (D:\FundooApplication\FundooApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooApplication\FundooApp\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\FundooApplication\FundooApp\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Jun 23 2023 20:34:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1298.515},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19258615,"external":22661934,"heapTotal":214142976,"heapUsed":142065248,"rss":264036352},"pid":4636,"uid":null,"version":"v19.7.0"},"stack":"TypeError: _redis.default.get is not a function\n    at _callee3$ (D:\\FundooApplication\\FundooApp\\src\\middlewares\\/auth.middleware.js:50:36)\n    at tryCatch (D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at getNotesFromRedis (D:\\FundooApplication\\FundooApp\\src\\middlewares\\/auth.middleware.js:49:31)\n    at Layer.handle [as handle_request] (D:\\FundooApplication\\FundooApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\FundooApplication\\FundooApp\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at _callee$ (D:\\FundooApplication\\FundooApp\\src\\middlewares\\/auth.middleware.js:25:5)\n    at tryCatch (D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":36,"file":"D:\\FundooApplication\\FundooApp\\src\\middlewares\\/auth.middleware.js","function":"_callee3$","line":50,"method":null,"native":false},{"column":17,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":19,"method":null,"native":false},{"column":31,"file":"D:\\FundooApplication\\FundooApp\\src\\middlewares\\/auth.middleware.js","function":"getNotesFromRedis","line":49,"method":null,"native":false},{"column":5,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"D:\\FundooApplication\\FundooApp\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":25,"method":null,"native":false},{"column":17,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FundooApplication\\FundooApp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [23/Jun/2023:15:10:48 +0000] "POST /api/v1/users/ HTTP/1.1" 201 314 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:10:57 +0000] "POST /api/v1/users/login HTTP/1.1" 200 236 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:11:22 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 55 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:14:30 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 55 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:16:34 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 284 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:17:04 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 287 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:17:14 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 66 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:18:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 975 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:18:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 996 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:22:57 +0000] "GET /api/v1/notes/6495b7526d709f2390b94e28 HTTP/1.1" 200 284 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:23:00 +0000] "GET /api/v1/notes/6495b7526d709f2390b94e28 HTTP/1.1" 200 284 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:23:06 +0000] "GET /api/v1/notes/6495b7526d709f2390b94e28 HTTP/1.1" 200 284 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:24:14 +0000] "GET /api/v1/notes/6495b7526d709f2390b94e28 HTTP/1.1" 200 291 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [23/Jun/2023:15:24:40 +0000] "GET /api/v1/notes/6495b7526d709f2390b94e28 HTTP/1.1" 200 291 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:13:59:31 +0000] "POST /api/v1/users HTTP/1.1" 500 96 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:14:31:43 +0000] "POST /api/v1/users HTTP/1.1" 201 311 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:14:32:35 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 975 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:14:33:19 +0000] "GET /api/v1/notes/2 HTTP/1.1" 500 174 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:14:34:01 +0000] "GET /api/v1/notes/2 HTTP/1.1" 500 174 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:14:34:03 +0000] "GET /api/v1/notes/2 HTTP/1.1" 500 174 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:14:51:01 +0000] "GET /api/v1/notes/2 HTTP/1.1" 500 174 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:14:53:35 +0000] "GET /api/v1/notes/2 HTTP/1.1" 500 174 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:14:57:26 +0000] "GET /api/v1/notes/limit=2 HTTP/1.1" 500 180 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:14:57:41 +0000] "GET /api/v1/notes/?limit=2 HTTP/1.1" 200 990 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:14:58:43 +0000] "GET /api/v1/notes/?limit=2 HTTP/1.1" 200 990 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:14:59:54 +0000] "GET /api/v1/notes/?limit=2 HTTP/1.1" 200 990 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:04:39 +0000] "GET /api/v1/notes/?limit=2 HTTP/1.1" 200 990 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:04:48 +0000] "GET /api/v1/notes HTTP/1.1" 200 990 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:05:30 +0000] "POST /api/v1/users/login HTTP/1.1" 200 233 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:05:56 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 287 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:06:07 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:06:16 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 286 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:06:29 +0000] "GET /api/v1/notes HTTP/1.1" 200 523 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:07:03 +0000] "GET /api/v1/notes HTTP/1.1" 200 538 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:10:30 +0000] "GET /api/v1/notes HTTP/1.1" 200 538 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:11:37 +0000] "GET /api/v1/notes HTTP/1.1" 200 291 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:12:41 +0000] "GET /api/v1/notes HTTP/1.1" 200 518 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:13:39 +0000] "GET /api/v1/notes HTTP/1.1" 200 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:13:41 +0000] "GET /api/v1/notes HTTP/1.1" 200 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:13:58 +0000] "GET /api/v1/notes HTTP/1.1" 200 523 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:16:54 +0000] "GET /api/v1/notes?limit=1 HTTP/1.1" 200 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:17:00 +0000] "GET /api/v1/notes?limit=2 HTTP/1.1" 200 523 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:17:09 +0000] "GET /api/v1/notes?limit=3 HTTP/1.1" 200 752 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:27:59 +0000] "GET /api/v1/notes?limit=3 HTTP/1.1" 200 767 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:28:05 +0000] "GET /api/v1/notes?limit=1 HTTP/1.1" 200 767 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [26/Jun/2023:15:28:23 +0000] "GET /api/v1/notes?limit=2 HTTP/1.1" 200 767 "-" "PostmanRuntime/7.32.3"
+

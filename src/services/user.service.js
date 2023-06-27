@@ -2,6 +2,7 @@ import User from '../models/user.model';
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import * as utils from '../utils/user.util';
+import * as rabbit from '../utils/producer.util';
 
 //get all users
 export const getAllUsers = async () => {
@@ -20,6 +21,9 @@ else{
 const hash = bcrypt.hashSync(body.password, 10);
   body.password = hash;
   const data = await User.create(body);
+  
+  const dataProduce = JSON.stringify(data);
+  rabbit.producer('Registration user',dataProduce);
   return data;
 }
 };

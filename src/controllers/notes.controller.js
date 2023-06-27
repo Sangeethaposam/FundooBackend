@@ -23,7 +23,9 @@ export const createNote = async (req, res, next) => {
 
   export const getAllNotes = async (req, res, next) => {
     try {
-      const data = await NotesService.getAllNotes(req.body);
+      console.log("controller get notes....",req.body);
+      console.log("controller get query....",req.query);
+      const data = await NotesService.getAllNotes(req.body,req.query);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,

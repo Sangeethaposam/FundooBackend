@@ -44,3 +44,16 @@ export const resetAuth = async (req, res, next) => {
     next(error);
   }
 };
+
+// export const getNotesFromRedis = async (req, res, next) => {
+//     const data = await clientRedis.get(req.body.createdBy);
+//     if(data){
+//     res.status(HttpStatus.OK).json({
+//       code: HttpStatus.OK,
+//       data: JSON.sprinify(data),
+//       message: 'All notes fetched successfully'
+//     });
+//   } else{
+//     next();
+//   }
+// };

@@ -1,21 +1,35 @@
 import { log } from 'winston';
 import Note from '../models/notes.model';
-
+import { client } from '../config/redis';
+import * as rabbit from '../utils/producer.util';
 
 //create new note
 export const createNote = async (body) => {
       const data = await Note.create(body);
+      if(data){
+        await client.del(body.createdBy);
+      return data;
+      }
       return data;
     };
 
 //get all notes
-export const getAllNotes = async (body) => {
-  const data = await Note.find({createdBy: body.createdBy});
+export const getAllNotes = async (body,query) => {
+  console.log("service body.....", body);
+  const { limit } = query;
+  const data = await Note.find({createdBy: body.createdBy}).limit(parseInt(limit));
+  if(data){
+  await client.set(body.createdBy,JSON.stringify(data));
+  return data;
+  }
+  const dataProduce = JSON.stringify(data);
+  rabbit.producer('GetNotes',dataProduce);
   return data;
 };
 //get single note
 export const getNote = async (_id,body) => {
   const data = await Note.findById({_id: _id, createdBy: body.createdBy});
+  await client.set(_id,JSON.stringify(data));
   return data;
 };
 
