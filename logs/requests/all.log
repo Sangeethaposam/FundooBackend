@@ -3479,3 +3479,101 @@ info: ::1 - - [04/Jul/2023:10:26:02 +0000] "POST /api/v1/users/ HTTP/1.1" 500 55
 error: uncaughtException: read ECONNRESET
 Error: read ECONNRESET
     at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Tue Jul 04 2023 17:34:04 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":10535.484},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18391270,"external":21793273,"heapTotal":141926400,"heapUsed":136065808,"rss":188243968},"pid":12968,"uid":null,"version":"v19.7.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: ::1 - - [05/Jul/2023:06:45:44 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:06:47:27 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:06:47:29 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:06:47:50 +0000] "POST /api/v1/users/ HTTP/1.1" 400 52 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:06:47:59 +0000] "POST /api/v1/users/Login HTTP/1.1" 200 233 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:06:48:17 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:06:51:30 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:06:51:31 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:06:52:35 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:06:54:41 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:06:54:43 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:06:58:55 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:04:15 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:04:17 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:21:25 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:21:26 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:23:20 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:23:22 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:24:18 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:24:20 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:26:14 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:27:15 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:45:14 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:45:17 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:47:46 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:47:48 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:49:56 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:49:58 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:51:09 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:51:11 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:07:52:26 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:08:58:39 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 184 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:09:01:31 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 200 81 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:09:06:45 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 66 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:09:07:32 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 200 112 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:09:10:16 +0000] "PUT /api/v1/notes/trash/6493e2272bff712c143f83f6 HTTP/1.1" 400 46 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:09:10:57 +0000] "PUT /api/v1/notes/trash/6495b61a3195572908f84a50 HTTP/1.1" 202 292 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:09:11:49 +0000] "PUT /api/v1/notes/archive/6495b6d6ac90cd010c49d044 HTTP/1.1" 202 294 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:09:12:01 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 200 112 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:10:32:14 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 400 68 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:10:32:46 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 200 114 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:10:33:52 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 200 65 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:10:34:20 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 200 112 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:10:38:52 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 200 114 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [05/Jul/2023:10:42:38 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 200 112 "-" "PostmanRuntime/7.32.3"
+
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Wed Jul 05 2023 16:12:54 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1219.281},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18373866,"external":21775869,"heapTotal":209035264,"heapUsed":138176696,"rss":257933312},"pid":6900,"uid":null,"version":"v19.7.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: ::1 - - [05/Jul/2023:10:44:26 +0000] "GET /api/v1/notes/countNotes HTTP/1.1" 200 112 "-" "PostmanRuntime/7.32.3"
+
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Wed Jul 05 2023 16:15:00 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1345.593},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18375747,"external":21777750,"heapTotal":212180992,"heapUsed":137458392,"rss":261275648},"pid":1788,"uid":null,"version":"v19.7.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}

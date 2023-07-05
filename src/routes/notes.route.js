@@ -6,11 +6,14 @@ import { getAllFromRedis,getSingleNoteFromRedis } from '../middlewares/redis.mid
 
 const router = express.Router();
 
-//route to create a new notes
-router.post('/',newNoteValidator,userAuth, notesController.createNote);
-
 //route to get all notes
 router.get('',userAuth,getAllFromRedis, notesController.getAllNotes);
+
+//route to count
+router.get('/countNotes',userAuth, notesController.countNotes);
+
+//route to create a new notes
+router.post('/',newNoteValidator,userAuth, notesController.createNote);
 
 //route to get note
 router.get('/:_id',userAuth,getSingleNoteFromRedis, notesController.getNote);
@@ -26,8 +29,5 @@ router.put('/trash/:_id',userAuth, notesController.addRemoveTrash);
 
 //route to archive
 router.put('/archive/:_id',userAuth, notesController.addRemoveArchive);
-
-//route to archive
-router.get('/countNotes',userAuth, notesController.countNotes);
 
 export default router;

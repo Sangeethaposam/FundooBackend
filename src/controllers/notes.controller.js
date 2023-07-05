@@ -128,7 +128,7 @@ export const createNote = async (req, res, next) => {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: 'All notes fetched successfully'
+        message: 'All notes counted successfully'
       });
     } catch (error) {
       res.status(HttpStatus.BAD_REQUEST).json({

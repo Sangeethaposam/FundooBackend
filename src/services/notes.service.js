@@ -89,10 +89,23 @@ if(data.trash == false){
   }
 */
   status = (data.archive == false) ? true : false;
-  console.log("status....",status);
   const result = await Note.findByIdAndUpdate({ _id},{archive: status },{new: true});
-  console.log("result......",result);
   return result;
 
 };
+
+//get count notes
+export const countNotes = async (body) => {
+  const data = await Note.find({createdBy: body.createdBy});
+  if(data){ 
+    const countData = {};
+     countData['trashcount'] = await Note.countDocuments({trash: true });
+     countData['archivecount'] = await Note.countDocuments({archive: true });
+     countData['getallcount'] = await Note.countDocuments({createdBy: body.createdBy});
+    
+    return countData;
+  }
+
+};
+
 
