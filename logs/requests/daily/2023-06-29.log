@@ -1,0 +1,2 @@
+info: ::1 - - [29/Jun/2023:10:08:13 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 287 "-" "PostmanRuntime/7.32.3"
+

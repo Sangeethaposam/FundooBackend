@@ -5721,3 +5721,42 @@ info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-26T1
 info: Connected to the database. {"timestamp":"2023-06-26T15:16:19.521Z"}
 info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-26T15:27:54.651Z"}
 info: Connected to the database. {"timestamp":"2023-06-26T15:27:54.697Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-29T10:05:22.410Z"}
+info: Connected to the database. {"timestamp":"2023-06-29T10:05:22.491Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-29T10:06:57.707Z"}
+info: Connected to the database. {"timestamp":"2023-06-29T10:06:57.803Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-29T10:09:22.790Z"}
+info: Connected to the database. {"timestamp":"2023-06-29T10:09:22.875Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-29T10:09:49.651Z"}
+info: Connected to the database. {"timestamp":"2023-06-29T10:09:49.730Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-30T03:13:50.119Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T03:13:54.219Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-30T03:19:34.430Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T03:19:34.512Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-30T03:20:01.047Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T03:20:01.080Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-06-30T03:20:20.186Z"}
+info: Connected to the database. {"timestamp":"2023-06-30T03:20:20.248Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-07-04T10:24:06.532Z"}
+info: Connected to the database. {"timestamp":"2023-07-04T10:24:06.762Z"}
+error: 
+    status - 500 
+    message - Error: Email already exists
+    at _callee2$ (D:\FundooApplication\FundooApp\src\services\/user.service.js:17:9)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-07-04T10:26:02.567Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-07-04T10:37:09.144Z"}
+info: Connected to the database. {"timestamp":"2023-07-04T10:37:09.193Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-07-04T11:13:28.018Z"}
+info: Connected to the database. {"timestamp":"2023-07-04T11:13:28.056Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Tue Jul 04 2023 17:34:04 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":10535.484},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18391246,"external":21793209,"heapTotal":141926400,"heapUsed":135998992,"rss":188186624},"pid":12968,"uid":null,"version":"v19.7.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2023-07-04T12:04:04.146Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}

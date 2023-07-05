@@ -47,10 +47,8 @@ export const loginUser = async (body) => {
 //forgotPassword
 export const forgotPassword = async (body) => {
   const data = await User.findOne({email : body.email});
-  console.log("email ...", data);
   if(data){
     const token = jwt.sign({ id: data.id ,email : data.email}, process.env.RESET_KEY);
-    console.log("token generated........", token);
       const send = await  utils.sendMail(data.email,token);
       return send;
   }else {

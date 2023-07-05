@@ -23,7 +23,10 @@ export const userAuth = async (req, res, next) => {
     req.body.createdBy = user.id;
     next();
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.UNAUTHORIZED).json({
+      code: HttpStatus.UNAUTHORIZED,
+      message: `${error}`
+  });
   }
 };
 
@@ -41,19 +44,10 @@ export const resetAuth = async (req, res, next) => {
     req.body.createdBy = user.id;
     next();
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.UNAUTHORIZED).json({
+      code: HttpStatus.UNAUTHORIZED,
+      message: `UnAuthorised token used`
+  });
   }
 };
 
-// export const getNotesFromRedis = async (req, res, next) => {
-//     const data = await clientRedis.get(req.body.createdBy);
-//     if(data){
-//     res.status(HttpStatus.OK).json({
-//       code: HttpStatus.OK,
-//       data: JSON.sprinify(data),
-//       message: 'All notes fetched successfully'
-//     });
-//   } else{
-//     next();
-//   }
-// };

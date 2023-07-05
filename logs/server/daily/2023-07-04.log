@@ -1,0 +1,20 @@
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-07-04T10:24:06.532Z"}
+info: Connected to the database. {"timestamp":"2023-07-04T10:24:06.762Z"}
+error: 
+    status - 500 
+    message - Error: Email already exists
+    at _callee2$ (D:\FundooApplication\FundooApp\src\services\/user.service.js:17:9)
+    at tryCatch (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooApplication\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-07-04T10:26:02.567Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-07-04T10:37:09.144Z"}
+info: Connected to the database. {"timestamp":"2023-07-04T10:37:09.193Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2023-07-04T11:13:28.018Z"}
+info: Connected to the database. {"timestamp":"2023-07-04T11:13:28.056Z"}

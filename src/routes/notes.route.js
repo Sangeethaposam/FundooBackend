@@ -27,4 +27,7 @@ router.put('/trash/:_id',userAuth, notesController.addRemoveTrash);
 //route to archive
 router.put('/archive/:_id',userAuth, notesController.addRemoveArchive);
 
+//route to archive
+router.get('/countNotes',userAuth, notesController.countNotes);
+
 export default router;

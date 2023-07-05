@@ -16,8 +16,11 @@ export const getAllUsers = async (req, res, next) => {
       message: 'All users fetched successfully'
     });
   } catch (error) {
-    next(error);
-  }
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+  });
+ }
 };
 
 /**
@@ -35,7 +38,10 @@ export const registerUser = async (req, res, next) => {
       message: 'User created successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+  });
   }
 };
 
@@ -48,7 +54,10 @@ export const loginUser = async (req, res, next) => {
       message: 'login successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+  });
   }
 };
 
@@ -61,7 +70,10 @@ export const forgotPassword = async (req, res, next) => {
       message: 'email sent successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+  });
   }
 };
 
@@ -74,6 +86,9 @@ export const resetPassword = async (req, res, next) => {
       message: 'resetpassword successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };

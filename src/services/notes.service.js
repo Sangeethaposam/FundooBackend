@@ -14,9 +14,8 @@ export const createNote = async (body) => {
     };
 
 //get all notes
-export const getAllNotes = async (body,query) => {
-  console.log("service body.....", body);
-  const { limit } = query;
+export const getAllNotes = async (body) => {
+  const  limit  = 5;
   const data = await Note.find({createdBy: body.createdBy}).limit(parseInt(limit));
   if(data){
   await client.set(body.createdBy,JSON.stringify(data));

@@ -3470,3 +3470,12 @@ info: ::1 - - [26/Jun/2023:15:28:05 +0000] "GET /api/v1/notes?limit=1 HTTP/1.1" 
 
 info: ::1 - - [26/Jun/2023:15:28:23 +0000] "GET /api/v1/notes?limit=2 HTTP/1.1" 200 767 "-" "PostmanRuntime/7.32.3"
 
+info: ::1 - - [29/Jun/2023:10:08:13 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 287 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:10:24:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 233 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [04/Jul/2023:10:26:02 +0000] "POST /api/v1/users/ HTTP/1.1" 500 55 "-" "PostmanRuntime/7.32.3"
+
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Tue Jul 04 2023 17:34:04 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":10535.484},"process":{"argv":["node","D:\\FundooApplication\\FundooApp\\src\\index.js"],"cwd":"D:\\FundooApplication\\FundooApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18391270,"external":21793273,"heapTotal":141926400,"heapUsed":136065808,"rss":188243968},"pid":12968,"uid":null,"version":"v19.7.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}

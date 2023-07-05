@@ -17,22 +17,26 @@ export const createNote = async (req, res, next) => {
         message: 'Note created successfully'
       });
     } catch (error) {
-      next(error);
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+    });
     }
   };
 
   export const getAllNotes = async (req, res, next) => {
     try {
-      console.log("controller get notes....",req.body);
-      console.log("controller get query....",req.query);
-      const data = await NotesService.getAllNotes(req.body,req.query);
+      const data = await NotesService.getAllNotes(req.body);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
         message: 'All notes fetched successfully'
       });
     } catch (error) {
-      next(error);
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+    });
     }
   };
   
@@ -46,7 +50,10 @@ export const createNote = async (req, res, next) => {
         message: 'Note fetched successfully'
       });
     } catch (error) {
-      next(error);
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+    });
     }
   };
 
@@ -59,7 +66,10 @@ export const createNote = async (req, res, next) => {
         message: 'Note updated successfully'
       });
     } catch (error) {
-      next(error);
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+    });
     }
   };
   
@@ -72,7 +82,10 @@ export const createNote = async (req, res, next) => {
         message: 'Note deleted successfully'
       });
     } catch (error) {
-      next(error);
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+    });
     }
   };
   
@@ -86,7 +99,10 @@ export const createNote = async (req, res, next) => {
         message: 'Note added successfully into trash'
       });
     } catch (error) {
-      next(error);
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+    });
     }
   };
 
@@ -99,6 +115,25 @@ export const createNote = async (req, res, next) => {
         message: 'Note added successfully into archive'
       });
     } catch (error) {
-      next(error);
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+    });
+    }
+  };
+
+  export const countNotes = async (req, res, next) => {
+    try {
+      const data = await NotesService.countNotes(req.body);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'All notes fetched successfully'
+      });
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+    });
     }
   };
