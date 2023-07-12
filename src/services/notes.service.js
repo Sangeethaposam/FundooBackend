@@ -16,8 +16,7 @@ export const createNote = async (body) => {
 
 //get all notes
 export const getAllNotes = async (body) => {
-  const  limit  = 5;
-  const data = await Note.find({createdBy: body.createdBy}).limit(parseInt(limit));
+  const data = await Note.find({createdBy: body.createdBy});
   if(!data){
   throw new Error("Fetching all notes failed");
   } else{
